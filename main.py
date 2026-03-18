@@ -35,4 +35,4 @@ with st.sidebar:
     
     st.divider()
     usage = (st.session_state.credits / 1000000)
-    st.progress(min(usage, 1.0),
+    st.progress(min)(usage, 1.0),
